@@ -1,0 +1,29 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+div[style*="minHeight"] {
+  flex: 1;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Global responsive utilities */
+@media (max-width: 768px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .hide-on-desktop {
+    display: none !important;
+  }
+}

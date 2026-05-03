@@ -1,0 +1,17 @@
+.footer {
+  margin-top: auto;
+  border-top: 1px solid #495057;
+}
+
+.footer a {
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #0d6efd !important;
+}
+
+.footer h5,
+.footer h6 {
+  color: #ffffff;
+}
