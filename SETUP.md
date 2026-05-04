@@ -127,23 +127,7 @@ VITE_API_BASE=http://localhost:4000/api
 
 ### 3️⃣ Запуск
 
-**Варіант 1: Запуск обох одночасно**
-```bash
-npm run dev:all
-```
-
-**Варіант 2: Запуск окремо**
-
-Backend (Терміна 1):
-```bash
-npm run dev:backend
-# Сервер запуститься на http://localhost:4000
-```
-
-Frontend (Терміналл 2):
-```bash
-npm run dev:frontend
-# Фронтенд откроется на http://localhost:5173
+*npm run dev:all
 ```
 
 ### 4️⃣ Доступ до системи
